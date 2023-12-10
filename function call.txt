@@ -1,0 +1,17 @@
+call insert_booking(2678 ,'2024-19-19',1,1,0,1,'Laxmi Lawns');//user not present
+
+
+
+call insert_booking(902 ,'2024-12-12',4,1,0,1,'Laxmi Lawns');//event not present
+
+call insert_booking(902 ,'2024-08-30',3,1,0,1,'Laxmi Lawns');//qury to add into booking
+
+
+select cal_tot_amt(3,1,0,1) as 'total amount';//not required to call individually
+
+
+
+select event_is_present(2);//not required to call individually
+
+
+select user_is_present(901);//not required to call individually
